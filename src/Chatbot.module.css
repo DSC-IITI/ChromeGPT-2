@@ -1,0 +1,80 @@
+/* Global Styles */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+   */
+  /* Chatbot Container */
+  
+  .chatbot {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: scroll;
+  }
+  
+  /* Messages Container */
+  
+  .messages {
+    margin-bottom: 20px;
+  }
+  
+  /* User Message */
+  
+  .user {
+    font-weight: bold;
+    color: #333;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Chatbot Response */
+  
+  .bot {
+    font-weight: normal;
+    color: #666;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Input Field */
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  /* Send Button */
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #444;
+  }
